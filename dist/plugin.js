@@ -16,7 +16,7 @@ exports.Deezer = void 0;
 const erela_js_1 = require("erela.js");
 const axios_1 = __importDefault(require("axios"));
 const BASE_URL = 'https://api.deezer.com';
-const REGEX = /^(?:https?:\/\/|)?(?:www\.)?deezer\.com\/(?:\w{2}\/)?(track|album|playlist))\/(\d+)/;
+const REGEX = /^(?:https?:\/\/|)?(?:www\.)?deezer\.com\/(?:\w{2}\/)?(track|album|playlist)\/(\d+)/;
 const buildSearch = (loadType, tracks, error, name) => ({
     loadType: loadType,
     tracks: tracks !== null && tracks !== void 0 ? tracks : [],
@@ -93,14 +93,14 @@ class Deezer extends erela_js_1.Plugin {
         return __awaiter(this, void 0, void 0, function* () {
             const { data: album } = yield axios_1.default.get(`${BASE_URL}/album/${id}`);
             const tracks = album.tracks.data.map(item => Deezer.convertToUnresolved(item));
-            return { tracks, name: album.title };
+            return { tracks: this.options.albumLimit ? tracks.splice(0, this.options.albumLimit) : tracks, name: album.title };
         });
     };
     getPlaylistTracks(id) {
         return __awaiter(this, void 0, void 0, function* () {
             const { data: playlist } = yield axios_1.default.get(`${BASE_URL}/playlist/${id}`);
             const tracks = playlist.tracks.data.map(item => Deezer.convertToUnresolved(item));
-            return { tracks, name: playlist.title };
+            return { tracks: this.options.playlistLimit ? tracks.splice(0, this.options.playlistLimit) : tracks, name: playlist.title };
         });
     };
     getTrack(id) {
@@ -117,8 +117,6 @@ class Deezer extends erela_js_1.Plugin {
             throw new ReferenceError("The track artist array was not provided");
         if (!track.title)
             throw new ReferenceError("The track title was not provided");
-        if (!Array.isArray(track.artist))
-            throw new TypeError(`The track artist must be an array, received type ${typeof track.artist}`);
         if (typeof track.title !== "string")
             throw new TypeError(`The track title must be a string, received type ${typeof track.name}`);
         return {
