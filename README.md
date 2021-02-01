@@ -7,18 +7,6 @@
 <img src="https://img.shields.io/npm/v/erela.js-deezer?color=red&label=Version&logo=npm&style=for-the-badge" alt="Npm version">
 </a>
 
-<br>
-
-<a href="https://github.com/WearifulCupid0/erela.js-deezer">
-<img src="https://img.shields.io/github/stars/wearifulcupid0/erela.js-deezer?color=333&logo=github&style=for-the-badge" alt="Github stars">
-</a>
-
-<a href="https://github.com/WearifulCupid0/erela.js-deezer/blob/master/LICENSE">
-<img src="https://img.shields.io/github/license/wearifulcupid0/erela.js-deezer?color=6e5494&logo=github&style=for-the-badge" alt="License">
-</a>
-<hr>
-</div>
-
 This a plugin for Erela.JS to allow the use of Deezer URL's, it uses direct URL's being tracks, albums, and playlists and gets the YouTube equivalent.
 
 - https://www.deezer.com/track/1174602992
@@ -29,9 +17,9 @@ This a plugin for Erela.JS to allow the use of Deezer URL's, it uses direct URL'
 
 It is recommended to read the documentation to start, and the guides to use the plugin.
 
-- [Documentation](http://projects.solaris.codes/erelajs/docs/gettingstarted.html 'Erela.js Documentation') 
+- [Documentation](https://solaris.codes/projects/erelajs/docs/gettingstarted.html 'Erela.js Documentation') 
 
-- [Guides](http://projects.solaris.codes/erelajs/guides/introduction.html 'Erela.js Guides')
+- [Guides](https://solaris.codes/projects/erelajs/guides/introduction.html 'Erela.js Guides')
 
 ## Installation
 
