@@ -6,9 +6,6 @@
 <a href="https://www.npmjs.com/package/erela.js-deezer">
 <img src="https://img.shields.io/npm/v/erela.js-deezer?color=red&label=Version&logo=npm&style=for-the-badge" alt="Npm version">
 </a>
-
-<<<<<<< HEAD
-=======
 <br>
 
 <a href="https://github.com/WearifulCupid0/erela.js-deezer">
@@ -20,8 +17,6 @@
 </a>
 <hr>
 </div>
-
->>>>>>> 739f1fc2412deae34f1c098df3fbf5e91c9f76f0
 This a plugin for Erela.JS to allow the use of Deezer URL's, it uses direct URL's being tracks, albums, and playlists and gets the YouTube equivalent.
 
 - https://www.deezer.com/track/1174602992
@@ -32,11 +27,7 @@ This a plugin for Erela.JS to allow the use of Deezer URL's, it uses direct URL'
 
 It is recommended to read the documentation to start, and the guides to use the plugin.
 
-<<<<<<< HEAD
 - [Documentation](https://solaris.codes/projects/erelajs/docs/gettingstarted.html#getting-started 'Erela.js Documentation') 
-=======
-- [Documentation](https://solaris.codes/projects/erelajs/docs/gettingstarted.html 'Erela.js Documentation') 
->>>>>>> 739f1fc2412deae34f1c098df3fbf5e91c9f76f0
 
 - [Guides](https://solaris.codes/projects/erelajs/guides/introduction.html 'Erela.js Guides')
 
@@ -77,18 +68,10 @@ const Deezer  = require("erela.js-deezer");
 
 const manager = new Manager({
   plugins: [
-<<<<<<< HEAD
     // Initiate the plugin
-=======
-    // Initiate the plugin and pass the two required options.
->>>>>>> 739f1fc2412deae34f1c098df3fbf5e91c9f76f0
     new Deezer()
   ]
 });
 
 manager.search("https://www.deezer.com/track/1174602992");
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> 739f1fc2412deae34f1c098df3fbf5e91c9f76f0
