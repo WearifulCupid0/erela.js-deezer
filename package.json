@@ -21,8 +21,12 @@
   "repository": {
     "url": "https://github.com/WearifulCupid0/erela.js-deezer"
   },
+  "version": "1.0.3",
+  "description": "Deezer plugin for Erela.JS",
+  "main": "dist/index.js",
+  "author": "wearifulcupid0",
+  "license": "Apache-2.0",
   "private": false,
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
