@@ -1,0 +1,6 @@
+#Modules and Dist
+node_modules
+dist
+
+#We really don't need this :P
+yarn.lock

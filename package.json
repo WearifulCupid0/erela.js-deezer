@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "erela.js": "^2.3.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "erela.js",
+    "deezer",
+    "plugin"
+  ],
+  "name": "erela.js-deezer",
+  "version": "1.0.1",
+  "description": "Deezer plugin for Erela.JS",
+  "main": "dist/index.js",
+  "author": "wearifulcupid0",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/WearifulCupid0/erela.js-deezer",
+  "repository": {
+    "url": "https://github.com/WearifulCupid0/erela.js-deezer"
+  },
+  "private": false,
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
