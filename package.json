@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "axios": "^0.21.1",
-    "erela.js": "^2.3.1"
+    "erela.js": "github:VampireChicken12/erela.js-filters#build"
   },
   "files": [
     "dist"
@@ -27,6 +27,5 @@
   },
   "bugs": {
     "url": "https://github.com/WearifulCupid0/erela.js-deezer/issues"
-  },
-  "devDependencies": {}
+  }
 }
