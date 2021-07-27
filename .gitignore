@@ -4,3 +4,4 @@ dist
 
 #We really don't need this :P
 yarn.lock
+yarn-error.log

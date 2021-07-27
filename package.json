@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "axios": "^0.21.1",
-    "erela.js": "^2.3.1"
+    "erela.js": "^2.3.3"
   },
   "files": [
     "dist"
@@ -12,7 +12,7 @@
     "plugin"
   ],
   "name": "erela.js-deezer",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Deezer plugin for Erela.JS",
   "main": "dist/index.js",
   "author": "wearifulcupid0",
